@@ -1,0 +1,14 @@
+# deps / build
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+web/dist/
+
+# models & local data (large)
+backend/data/
+backend/bin/
+*.gguf
+
+# os
+.DS_Store
